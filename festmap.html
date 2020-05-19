@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_31adf5374a4148d198ea6e7452ff8161 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_31adf5374a4148d198ea6e7452ff8161" ></div>
+        
+</body>
+<script>    
+    
+            var map_31adf5374a4148d198ea6e7452ff8161 = L.map(
+                "map_31adf5374a4148d198ea6e7452ff8161",
+                {
+                    center: [37.553522, 126.986995],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                    zoonStart: 12,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_dd46f52944e24f37b20b56c51f473a5b = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_31adf5374a4148d198ea6e7452ff8161);
+        
+    
+            var circle_marker_bd1a37cc66dc4a67b8e9b2c990a4ceda = L.circleMarker(
+                [37.497175, 127.02792600000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_31adf5374a4148d198ea6e7452ff8161);
+        
+    
+        var popup_383a3ff080ca45ae92453fc4f7969f3c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b10025b596f44ecab92b7031397b8a58 = $(`<div id="html_b10025b596f44ecab92b7031397b8a58" style="width: 100.0%; height: 100.0%;">역이름:강남 축제명:내 집 앞 세계영화제</div>`)[0];
+            popup_383a3ff080ca45ae92453fc4f7969f3c.setContent(html_b10025b596f44ecab92b7031397b8a58);
+        
+
+        circle_marker_bd1a37cc66dc4a67b8e9b2c990a4ceda.bindPopup(popup_383a3ff080ca45ae92453fc4f7969f3c)
+        ;
+
+        
+    
+    
+            var circle_marker_ea1cb8b95a1f4657bd9bde0f8c0c2499 = L.circleMarker(
+                [37.540684999999996, 127.01796499999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_31adf5374a4148d198ea6e7452ff8161);
+        
+    
+        var popup_66492a287e4e44de936dd29cedfa3cc8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f245ed2bfcf48319d83ab36ab1d7981 = $(`<div id="html_3f245ed2bfcf48319d83ab36ab1d7981" style="width: 100.0%; height: 100.0%;">역이름:옥수 축제명:응봉산 개나리축체</div>`)[0];
+            popup_66492a287e4e44de936dd29cedfa3cc8.setContent(html_3f245ed2bfcf48319d83ab36ab1d7981);
+        
+
+        circle_marker_ea1cb8b95a1f4657bd9bde0f8c0c2499.bindPopup(popup_66492a287e4e44de936dd29cedfa3cc8)
+        ;
+
+        
+    
+    
+            var circle_marker_2554da9728e246ea84906ea125b2258a = L.circleMarker(
+                [37.540684999999996, 127.01796499999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_31adf5374a4148d198ea6e7452ff8161);
+        
+    
+        var popup_b01cc14920dd4a7bb44ea290a999d272 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d227da0a3a33401c84e09634c6a344e0 = $(`<div id="html_d227da0a3a33401c84e09634c6a344e0" style="width: 100.0%; height: 100.0%;">역이름:옥수 축제명:응봉산 해맞이축제</div>`)[0];
+            popup_b01cc14920dd4a7bb44ea290a999d272.setContent(html_d227da0a3a33401c84e09634c6a344e0);
+        
+
+        circle_marker_2554da9728e246ea84906ea125b2258a.bindPopup(popup_b01cc14920dd4a7bb44ea290a999d272)
+        ;
+
+        
+    
+    
+            var circle_marker_b6fbf6c5910047c7af53cd69da69397f = L.circleMarker(
+                [37.577446, 126.81274099999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_31adf5374a4148d198ea6e7452ff8161);
+        
+    
+        var popup_54124323bf1a4266b010186ddfdfaa51 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5060936c8d934e84b893ce6e3bbc6ce7 = $(`<div id="html_5060936c8d934e84b893ce6e3bbc6ce7" style="width: 100.0%; height: 100.0%;">역이름:방화 축제명:개화산 봄꽃축제</div>`)[0];
+            popup_54124323bf1a4266b010186ddfdfaa51.setContent(html_5060936c8d934e84b893ce6e3bbc6ce7);
+        
+
+        circle_marker_b6fbf6c5910047c7af53cd69da69397f.bindPopup(popup_54124323bf1a4266b010186ddfdfaa51)
+        ;
+
+        
+    
+    
+            var circle_marker_9c36a52ec05d446caf616362032e492d = L.circleMarker(
+                [37.572399, 126.80617099999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_31adf5374a4148d198ea6e7452ff8161);
+        
+    
+        var popup_33c0d1c50ed94ab4aff30a1918ee573e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6398a45bf9df4af2bd5a0c36dcf0c56b = $(`<div id="html_6398a45bf9df4af2bd5a0c36dcf0c56b" style="width: 100.0%; height: 100.0%;">역이름:개화산 축제명:해맞이축제</div>`)[0];
+            popup_33c0d1c50ed94ab4aff30a1918ee573e.setContent(html_6398a45bf9df4af2bd5a0c36dcf0c56b);
+        
+
+        circle_marker_9c36a52ec05d446caf616362032e492d.bindPopup(popup_33c0d1c50ed94ab4aff30a1918ee573e)
+        ;
+
+        
+    
+    
+            var circle_marker_3c359e90e10346339fcd82411156bad5 = L.circleMarker(
+                [37.548768, 126.83631799999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_31adf5374a4148d198ea6e7452ff8161);
+        
+    
+        var popup_d3d81127d9424203b9610362682dd68e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f796cf7c500e48088bc15cf6e1d64c9d = $(`<div id="html_f796cf7c500e48088bc15cf6e1d64c9d" style="width: 100.0%; height: 100.0%;">역이름:우장산 축제명:우장산 신록축제</div>`)[0];
+            popup_d3d81127d9424203b9610362682dd68e.setContent(html_f796cf7c500e48088bc15cf6e1d64c9d);
+        
+
+        circle_marker_3c359e90e10346339fcd82411156bad5.bindPopup(popup_d3d81127d9424203b9610362682dd68e)
+        ;
+
+        
+    
+</script>

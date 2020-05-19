@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f943536500984cfc8d184c826c344d7b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_f943536500984cfc8d184c826c344d7b" ></div>
+        
+</body>
+<script>    
+    
+            var map_f943536500984cfc8d184c826c344d7b = L.map(
+                "map_f943536500984cfc8d184c826c344d7b",
+                {
+                    center: [37.553522, 126.986995],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                    zoonStart: 12,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1d047ab68e5940f6aa5af511d5e36ba7 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_f943536500984cfc8d184c826c344d7b);
+        
+    
+            var circle_marker_adb3701c6b3048e7bf7163035832f8df = L.circleMarker(
+                [37.514287, 126.882768],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 22.6443, "stroke": true, "weight": 3}
+            ).addTo(map_f943536500984cfc8d184c826c344d7b);
+        
+    
+        var popup_cbf9e8a59cec4b32b6adbfd7018843cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b6fe238b8b5b4448a73c8179e574f3cc = $(`<div id="html_b6fe238b8b5b4448a73c8179e574f3cc" style="width: 100.0%; height: 100.0%;">2호선도림천452886</div>`)[0];
+            popup_cbf9e8a59cec4b32b6adbfd7018843cb.setContent(html_b6fe238b8b5b4448a73c8179e574f3cc);
+        
+
+        circle_marker_adb3701c6b3048e7bf7163035832f8df.bindPopup(popup_cbf9e8a59cec4b32b6adbfd7018843cb)
+        ;
+
+        
+    
+    
+            var circle_marker_fc010eefcdb84359bf190df14df80845 = L.circleMarker(
+                [37.648047999999996, 126.913951],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24.4099, "stroke": true, "weight": 3}
+            ).addTo(map_f943536500984cfc8d184c826c344d7b);
+        
+    
+        var popup_f9e77099dddd4d848d1cda29ff45a5b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_70ef32ff7e74431e8c89e7ec66e55d71 = $(`<div id="html_70ef32ff7e74431e8c89e7ec66e55d71" style="width: 100.0%; height: 100.0%;">3호선지축488198</div>`)[0];
+            popup_f9e77099dddd4d848d1cda29ff45a5b3.setContent(html_70ef32ff7e74431e8c89e7ec66e55d71);
+        
+
+        circle_marker_fc010eefcdb84359bf190df14df80845.bindPopup(popup_f9e77099dddd4d848d1cda29ff45a5b3)
+        ;
+
+        
+    
+    
+            var circle_marker_54ff0b9bab4a40dfb466a34e8d361b27 = L.circleMarker(
+                [37.463873, 126.989134],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 26.35175, "stroke": true, "weight": 3}
+            ).addTo(map_f943536500984cfc8d184c826c344d7b);
+        
+    
+        var popup_a60465af1ffa4c3a835e83b7ffa2e2ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f5f128cebb014fbe945dbd3669ff82a2 = $(`<div id="html_f5f128cebb014fbe945dbd3669ff82a2" style="width: 100.0%; height: 100.0%;">4호선남태령527035</div>`)[0];
+            popup_a60465af1ffa4c3a835e83b7ffa2e2ff.setContent(html_f5f128cebb014fbe945dbd3669ff82a2);
+        
+
+        circle_marker_54ff0b9bab4a40dfb466a34e8d361b27.bindPopup(popup_a60465af1ffa4c3a835e83b7ffa2e2ff)
+        ;
+
+        
+    
+    
+            var circle_marker_d7ffeae6175e42f18448d8dd728eeda8 = L.circleMarker(
+                [37.700109000000005, 127.053196],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30.91215, "stroke": true, "weight": 3}
+            ).addTo(map_f943536500984cfc8d184c826c344d7b);
+        
+    
+        var popup_4117e8a6689c4c5e939071f19d6a9409 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c9af9b758477430ca8c800d4e4dbaf12 = $(`<div id="html_c9af9b758477430ca8c800d4e4dbaf12" style="width: 100.0%; height: 100.0%;">7호선장암618243</div>`)[0];
+            popup_4117e8a6689c4c5e939071f19d6a9409.setContent(html_c9af9b758477430ca8c800d4e4dbaf12);
+        
+
+        circle_marker_d7ffeae6175e42f18448d8dd728eeda8.bindPopup(popup_4117e8a6689c4c5e939071f19d6a9409)
+        ;
+
+        
+    
+    
+            var circle_marker_29294d9efc2c44b0b0fcf4e0ffa5a760 = L.circleMarker(
+                [37.570040000000006, 127.046481],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 31.53375, "stroke": true, "weight": 3}
+            ).addTo(map_f943536500984cfc8d184c826c344d7b);
+        
+    
+        var popup_b6a5c1f0c6654585a686557e2feef99e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f342c9585c304988bb8a2687abc40281 = $(`<div id="html_f342c9585c304988bb8a2687abc40281" style="width: 100.0%; height: 100.0%;">2호선신답630675</div>`)[0];
+            popup_b6a5c1f0c6654585a686557e2feef99e.setContent(html_f342c9585c304988bb8a2687abc40281);
+        
+
+        circle_marker_29294d9efc2c44b0b0fcf4e0ffa5a760.bindPopup(popup_b6a5c1f0c6654585a686557e2feef99e)
+        ;
+
+        
+    
+</script>
